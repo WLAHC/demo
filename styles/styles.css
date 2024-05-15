@@ -1,0 +1,33 @@
+#title-sub {
+    font-size: 30px;
+    padding-top: 20vh;
+    text-align: center;
+    mix-blend-mode: lighten;
+    color: black;
+    background-color: white;
+    opacity: 0.2;
+    transition-duration: 5s;
+    transition-delay: 1s;
+}
+
+#title-sub:hover {
+    font-size: 60px;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+#meaning,
+#sub {
+    margin-top: 5vh;
+    text-align: center;
+}
+
+div#rakka_silhouette img {
+    z-index: -1;
+    padding: 0;
+    position: fixed;
+    bottom: -1px;
+    right: 5vw;
+    max-width: 80vw;
+    max-height: 80vh;
+    opacity: 0.3;
+}
