@@ -3,25 +3,24 @@
 }
 
 .title-sub {
+    color: hsl(180, 30%, 60%);
     font-size: 3em;
     padding-top: 10vh;
-    text-align: center;
-    color: hsl(180, 30%, 60%);
     opacity: 0.2;
+    text-align: center;
     overflow: hidden;
     animation: falling 3s ease-in-out;
 }
 
 .forgetting{
-  text-align: center;
-  visibility: hidden;
-  font-size: 2em;
+    font-size: 2em;
+    text-align: center;
+    visibility: hidden;
 }
 
 @keyframes falling {
     from {
-      transform: translateY(0);
-      transform: rotate(0.5turn);
+        transform: rotate(0.5turn);
     }
     to {
       transform: translateY(100vh);
@@ -29,19 +28,43 @@
     }
   }
 
-.sense {
+#original,
+#linger {
+    font-size: 2em;
     margin-top: 3em;
     text-align: center;
-    font-size: 2em;
-    line-height: 3em;
 }
 
-div#rakka_silhouette img {
+#rakka_silhouette {
     z-index: -1;
-    position: fixed;
     bottom: 0;
     right: 0;
+    opacity: 0.3;
     max-width: 100vw;
     max-height: 100vh;
-    opacity: 0.3;
+    position: fixed;
 }
+
+@font-face {
+    font-family: "BIZ UDPGothic" ;
+    src: url("../fonts/BIZ_UDPGothic/BIZUDPGothic-Regular.ttf");
+}
+@font-face {
+    font-family: "Lora";
+    src: local(Lora),
+    url("../fonts/Lora/static/Lora-Regular.ttf");
+}
+
+.title-sub,
+#original,
+p{
+    font-family: "BIZ UDPGothic" ;
+}
+
+#linger{
+    font-family: 楷体, system-ui;
+}
+
+/* Credit */
+/* Google Fonts, etc. */
+/* https://fonts.google.com */
