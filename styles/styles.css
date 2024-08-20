@@ -16,6 +16,7 @@
     font-size: 2em;
     text-align: center;
     visibility: hidden;
+    /* display: none; */
 }
 
 @keyframes falling {
@@ -50,21 +51,19 @@
     src: url("../fonts/BIZ_UDPGothic/BIZUDPGothic-Regular.ttf");
 }
 @font-face {
-    font-family: "Lora";
+    font-family: "Lora" ;
     src: local(Lora),
     url("../fonts/Lora/static/Lora-Regular.ttf");
 }
 
-.title-sub,
-#original,
-p{
+#original {
     font-family: "BIZ UDPGothic" ;
 }
 
-#linger{
-    font-family: 楷体, system-ui;
-}
 
 /* Credit */
-/* Google Fonts, etc. */
+/* Google Fonts , 株式会社モリサワ , etc. */
 /* https://fonts.google.com */
+/* https://www.morisawa.co.jp */
+/* 碎碎念 */
+/* UD Reimin SC */
