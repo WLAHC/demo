@@ -1,0 +1,13 @@
+/* Credit */
+/* CEF Fonts CJK, etc. */
+/* https://github.com/Partyb0ssishere/cef-fonts-cjk */
+
+:root{
+    background: rgb(20, 25, 30);
+    font-family: "CEF Fonts CJK", "Noto Sans CJK", sans-serif;
+}
+
+@font-face {
+    font-family: "CEF Fonts CJK";
+    src: url(/fonts/cef-fonts-cjk/CEFFontsCJK-Regular.ttf);
+}

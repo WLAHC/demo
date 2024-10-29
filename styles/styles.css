@@ -1,11 +1,7 @@
-:root{
-  background: rgb(20, 25, 30);
-}
-
 .title-sub {
     color: hsl(180, 30%, 60%);
     font-size: 3em;
-    padding-top: 10vh;
+    margin: 3em;
     opacity: 0.2;
     text-align: center;
     overflow: hidden;
@@ -16,7 +12,6 @@
     font-size: 2em;
     text-align: center;
     visibility: hidden;
-    /* display: none; */
 }
 
 @keyframes falling {
@@ -27,13 +22,12 @@
       transform: translateY(100vh);
       opacity: 0;
     }
-  }
+}
 
-#original,
-#linger {
-    font-size: 2em;
-    margin-top: 3em;
-    text-align: center;
+.sense{
+  font-size: clamp(2em, 2.5em, 3em);
+  line-height: 2em;
+  text-align: center;
 }
 
 #rakka_silhouette {
@@ -45,25 +39,3 @@
     max-height: 100vh;
     position: fixed;
 }
-
-@font-face {
-    font-family: "BIZ UDPGothic" ;
-    src: url("../fonts/BIZ_UDPGothic/BIZUDPGothic-Regular.ttf");
-}
-@font-face {
-    font-family: "Lora" ;
-    src: local(Lora),
-    url("../fonts/Lora/static/Lora-Regular.ttf");
-}
-
-#original {
-    font-family: "BIZ UDPGothic" ;
-}
-
-
-/* Credit */
-/* Google Fonts , 株式会社モリサワ , etc. */
-/* https://fonts.google.com */
-/* https://www.morisawa.co.jp */
-/* 碎碎念 */
-/* UD Reimin SC */
