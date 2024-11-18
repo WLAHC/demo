@@ -3,7 +3,8 @@
 /* https://github.com/Partyb0ssishere/cef-fonts-cjk */
 
 :root{
-    background: rgb(20, 25, 30);
+    color-scheme: light dark;
+    background-color: light-dark(rgb(220, 225, 230), rgb(20, 25, 30));
     font-family: "CEF Fonts CJK", "Noto Sans CJK", sans-serif;
 }
 

@@ -1,17 +1,11 @@
 .title-sub {
-    color: hsl(180, 30%, 60%);
+    color: hsl(180, 19%, 17%);
     font-size: 3em;
     margin: 3em;
     opacity: 0.2;
     text-align: center;
     overflow: hidden;
     animation: falling 3s ease-in-out;
-}
-
-.forgetting{
-    font-size: 2em;
-    text-align: center;
-    visibility: hidden;
 }
 
 @keyframes falling {
@@ -24,8 +18,8 @@
     }
 }
 
-.sense{
-  font-size: clamp(2em, 2.5em, 3em);
+.mainPage{
+  font-size: clamp(1.5em, 2em, 2.5em);
   line-height: 2em;
   text-align: center;
 }
@@ -38,4 +32,10 @@
     max-width: 100vw;
     max-height: 100vh;
     position: fixed;
+}
+
+.forgetting{
+  font-size: 2em;
+  text-align: center;
+  visibility: hidden;
 }
