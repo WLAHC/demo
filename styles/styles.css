@@ -19,7 +19,7 @@
 }
 
 .mainPage{
-  font-size: clamp(1.5em, 2em, 2.5em);
+  font-size: clamp(2em, 2vw, 2.5em);
   line-height: 2em;
   text-align: center;
 }
