@@ -1,8 +1,7 @@
 .title-sub {
-    color: hsl(180, 19%, 17%);
+    color: rgba(35, 40, 50, 0.15);
     font-size: 3em;
     margin: 3em;
-    opacity: 0.2;
     text-align: center;
     overflow: hidden;
     animation: falling 3s ease-in-out;
@@ -34,7 +33,7 @@
     position: fixed;
 }
 
-.forgetting{
+.forgotten{
   font-size: 2em;
   text-align: center;
   visibility: hidden;
